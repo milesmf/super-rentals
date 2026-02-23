@@ -1,3 +1,4 @@
+<template>
 <nav class="menu">
   <LinkTo @route="index" class="menu-index">
     <h1>SuperRentals</h1>
@@ -11,3 +12,4 @@
     </LinkTo>
   </div>
 </nav>
+</template>
