@@ -1,5 +1,5 @@
 <template>
- {{#if this.large}}
+ {{#if this.isLarge}}
 	  <div class="image large">
     <img ...attributes>
     <small>View Smaller</small>
