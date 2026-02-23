@@ -1,5 +1,10 @@
 <template>
 <article class="rental">
+	<Rentals::Image
+	  src="https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg"
+    alt="A picture of Grand Old Mansion"
+	>
+  </Rentals::Image>
   <div class="details">
     <h3>Grand Old Mansion</h3>
     <div class="detail owner">
