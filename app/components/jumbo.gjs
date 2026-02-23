@@ -1,4 +1,4 @@
-import LinkTo from '@ember/routing/link-to';
+import { LinkTo } from '@ember/routing';
 
 <template>
   <div class="jumbo">
