@@ -1,3 +1,5 @@
+import RentalsImage from './rentals/image';
+
 <template>
 <article class="rental">
 	<Rentals::Image
