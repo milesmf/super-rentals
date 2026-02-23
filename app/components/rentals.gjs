@@ -6,7 +6,7 @@ import RentalsImage from './rentals/image';
 	  src="https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg"
     alt="A picture of Grand Old Mansion"
 	>
-  </Rentals::Image>
+  </RentalsImage>
   <div class="details">
     <h3>Grand Old Mansion</h3>
     <div class="detail owner">
