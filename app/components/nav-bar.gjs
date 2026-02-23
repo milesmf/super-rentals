@@ -1,3 +1,5 @@
+import { LinkTo } from '@ember/routing'
+
 <template>
 <nav class="menu">
   <LinkTo @route="index" class="menu-index">
