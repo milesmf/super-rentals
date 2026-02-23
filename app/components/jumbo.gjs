@@ -4,7 +4,7 @@ import LinkTo from '@ember/routing/link-to';
   <div class="jumbo">
     <div class="right tomster"></div>
     {{yield}}
-  </div>
   <LinkTo @route="index" class="button">Home</LinkTo>
+  </div>
 </template>
   
