@@ -1,5 +1,13 @@
 <template>
- <div class="image">
-  <img ...attributes>
- </div>
+ {{#if this.large}}
+	  <div class="image large">
+    <img ...attributes>
+    <small>View Smaller</small>
+  </div>
+ {{#else}}
+  <div class="image">
+    <img ...attributes>
+    <small>View Larger</small>
+  </div>
+ {{/if}}
 </template>
