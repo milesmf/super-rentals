@@ -1,7 +1,7 @@
 import { Route } from '@ember/routing';
 
 export default class IndexRoute extends Route {
-	async mode() {
+	async model() {
     return {
       title: 'Grand Old Mansion',
       owner: 'Veruca Salt',
