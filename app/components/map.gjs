@@ -5,7 +5,6 @@ export default class MapComponent extends Component {
   get token() {
     return encodeURIComponent(ENV.MAPBOX_ACCESS_TOKEN);
   }
-}
 
 <template>
   <div class="map">
@@ -18,3 +17,4 @@ export default class MapComponent extends Component {
     />
   </div>
 </template>
+}
