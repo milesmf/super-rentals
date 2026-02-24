@@ -4,7 +4,7 @@
     <img ...attributes>
     <small>View Smaller</small>
   </div>
- {{#else}}
+ {{else}}
   <div class="image">
     <img ...attributes>
     <small>View Larger</small>
