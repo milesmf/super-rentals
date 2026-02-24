@@ -75,13 +75,13 @@ body {
 
 .menu-index {
   text-decoration: none;
-}
-
-.menu-index h1 {
-	display: flex;
+  display: flex;
   gap: 12px;
   justify-content: center;
   align-items: center;  
+}
+
+.menu-index h1 {
   font-style: italic;
   font-size: 3rem;
 }
