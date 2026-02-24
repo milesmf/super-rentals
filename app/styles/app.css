@@ -42,7 +42,7 @@ body {
 }
 
 .tomster {
-  background: url("/public/assets/images/teaching-tomster.png");
+  background: url("https://gzpohfmle7zzdwfb.public.blob.vercel-storage.com/Swapnice/swapnice_logo.png");
   background-repeat: no-repeat;
   background-size: contain;
   width: 100px;
