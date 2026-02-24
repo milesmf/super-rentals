@@ -1,4 +1,5 @@
 import RentalsImage from './rentals/image';
+import Map from './map';
 
 <template>
 <article class="rental">
@@ -22,5 +23,13 @@ import RentalsImage from './rentals/image';
       <span>Number of bedrooms:</span> 15
     </div>
   </div>
+	<Map
+  	@lat="41.9397"
+  	@lng="-87.7286"
+  	@zoom="14"
+  	@width="150"
+  	@height="150"
+  	alt="Map of 4055 W Melrose St, Chicago"
+	/>
 </article>
 </template>
