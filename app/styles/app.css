@@ -172,3 +172,9 @@ body {
   color: #016aba;
   margin-top: 4px;
 }
+
+.map {
+	padding: 10px;
+  border-radius: 4px;
+  background-color: #e46855;
+}
