@@ -11,9 +11,9 @@ export default class RentalsImage extends Component {
 	}
 
 	<template>
-		<button type="button" class="image {{if this.isLarger "large"}}" {{on "click" this.toggleSize}}>
+		<button type="button" class="image {{if this.isLarge "large"}}" {{on "click" this.toggleSize}}>
     	<img ...attributes>
-    	<small>View {{if this.isLarger "Smaller" "Larger"}}</small>
+    	<small>View {{if this.isLarge "Smaller" "Larger"}}</small>
   	</button>
 	</template>
 }
