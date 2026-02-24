@@ -7,8 +7,8 @@ export default class IndexRoute extends Route {
       owner: 'Veruca Salt',
       city: 'San Francisco',
       location: {
-        lat: 37.7749,
-        lng: -122.4194,
+        lat: 41.9397,
+        lng: -87.7286,
       },
       category: 'Estate',
       type: 'Standalone',
