@@ -77,6 +77,15 @@ body {
   text-decoration: none;
 }
 
+.menu-index h1 {
+	display: flex;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;  
+  font-style: italic;
+  font-size: 3rem;
+}
+
 .links {
   display: flex;
   gap: 16px;
