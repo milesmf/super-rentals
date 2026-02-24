@@ -1,3 +1,5 @@
+import { on } from '@ember/modifier';  
+
 <template>
  {{#if this.isLarge}}
 	  <button type="button" class="image large" {{on "click" this.toggleSize}}>
