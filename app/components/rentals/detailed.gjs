@@ -1,7 +1,7 @@
 import RentalsImage from './image';
 import Map from '../map';
 import Jumbo from '../jumbo';
-import { LinkTo } '@ember/routing';
+import { LinkTo } from '@ember/routing';
 
 <template>
 <Jumbo>
