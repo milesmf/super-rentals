@@ -11,7 +11,7 @@
     "test": "tests"
   },
 "scripts": {
-  "start": "ember start",
+  "start": "ember serve --host 0.0.0.0 --port 4200",
   "build": "ember build",
   "test": "ember test"
 },
