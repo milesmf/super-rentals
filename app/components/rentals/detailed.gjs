@@ -1,6 +1,6 @@
 import RentalsImage from './image';
-import Map from '../Map';
-import Jumbo from '../Jumbo';
+import Map from '../map';
+import Jumbo from '../jumbo';
 
 <template>
 <Jumbo>
