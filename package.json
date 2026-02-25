@@ -14,7 +14,7 @@
   "start": "ember start",
   "build": "ember build",
   "test": "ember test"
-}
+},
   "devDependencies": {
     "@babel/core": "^7.29.0",
     "@babel/eslint-parser": "^7.28.6",
