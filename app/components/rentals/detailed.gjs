@@ -8,9 +8,13 @@ import { LinkTo } from '@ember/routing';
   <h2>{{@rental.title}}</h2>
   <p>Nice find! This looks like a nice place to stay near {{@rental.city}}.</p>
 	<LinkTo @route="index" class="button">All Listings</LinkTo>
-  <a href="#" target="_blank" rel="external nofollow noopener noreferrer" class="share button">
+  <ShareButton
+    @text="Check out {{@rental.title}} on Super Rentals!"
+    @hashtags="vacation,travel,authentic,blessed,superrentals"
+    @via="emberjs"
+  >
     Share on Twitter
-  </a>
+  </ShareButton>
 </Jumbo>
 
 <article class="rental detailed">
