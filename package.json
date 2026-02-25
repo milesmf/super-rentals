@@ -6,14 +6,18 @@
   "repository": "",
   "license": "MIT",
   "author": "",
+  "exports": {
+    "./tests/*": "./tests/*",
+    "./*": "./app/*"
+  },
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
 "scripts": {
-  "start": "ember serve --host 0.0.0.0 --port 4200",
-  "build": "ember build",
-  "test": "ember test"
+  "start": "vite --host 0.0.0.0 --port 4200",
+  "build": "vite build",
+  "test": "vite build --mode development && ember test --path dist"
 },
   "devDependencies": {
     "@babel/core": "^7.29.0",
