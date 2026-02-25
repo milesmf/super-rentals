@@ -3,6 +3,7 @@ import { extensions, classicEmberSupport, ember } from '@embroider/vite';
 import { babel } from '@rollup/plugin-babel';
 
 export default defineConfig({
+  optimizeDeps: { disabled: true },
   plugins: [
     classicEmberSupport(),
     ember(),
