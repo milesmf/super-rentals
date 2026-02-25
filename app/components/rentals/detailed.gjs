@@ -1,11 +1,13 @@
 import RentalsImage from './image';
 import Map from '../map';
 import Jumbo from '../jumbo';
+import { LinkTo } 'ember/routing';
 
 <template>
 <Jumbo>
   <h2>{{@rental.title}}</h2>
   <p>Nice find! This looks like a nice place to stay near {{@rental.city}}.</p>
+	<LinkTo @route="index">Back</LinkTo>
   <a href="#" target="_blank" rel="external nofollow noopener noreferrer" class="share button">
     Share on Twitter
   </a>
