@@ -1,3 +1,4 @@
+import { LinkTo } from '@ember/routing';
 import RentalsImage from './rentals/image';
 import Map from './map';
 
@@ -9,7 +10,9 @@ import Map from './map';
 	>
   </RentalsImage>
   <div class="details">
-    <h3>{{@rental.title}}</h3>
+    <LinkTo @route="rental" @model={{@route}}>
+			<h3>{{@rental.title}}</h3>
+		</LinkTo>
     <div class="detail owner">
       <span>Owner:</span> {{@rental.owner}}
     </div>
