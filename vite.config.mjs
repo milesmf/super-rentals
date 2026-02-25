@@ -4,6 +4,9 @@ import { babel } from '@rollup/plugin-babel';
 
 export default defineConfig({
   optimizeDeps: { disabled: true },
+  server: {
+    allowedHosts: ['.app.github.dev'],
+  },
   plugins: [
     classicEmberSupport(),
     ember(),
