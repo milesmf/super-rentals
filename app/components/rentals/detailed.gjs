@@ -1,4 +1,6 @@
-import { RentalsImage } from './image';
+import RentalsImage from './image';
+import Map from '../Map';
+import Jump from '../Jumbo';
 
 <template>
 <Jumbo>
