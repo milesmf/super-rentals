@@ -1,4 +1,5 @@
 import Component from '@glimmer/component';
+import { service } from '@ember/service';
 
 const TWEET_INTENT = 'https://twitter.com/intent/tweet';
 
