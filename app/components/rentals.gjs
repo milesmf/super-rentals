@@ -10,7 +10,7 @@ import Map from './map';
 	>
   </RentalsImage>
   <div class="details">
-    <LinkTo @route="rental" @model={{@route}}>
+    <LinkTo @route="rental" @model={{@rental}}>
 			<h3>{{@rental.title}}</h3>
 		</LinkTo>
     <div class="detail owner">
