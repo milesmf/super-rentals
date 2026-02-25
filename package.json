@@ -15,7 +15,7 @@
     "test": "tests"
   },
 "scripts": {
-  "start": "CHOKIDAR_USEPOLLING=1 vite --host 127.0.0.1 --port 3000 --strictPort"
+  "start": "CHOKIDAR_USEPOLLING=1 vite --host 127.0.0.1 --port 3000 --strictPort",
   "build": "vite build",
   "test": "vite build --mode development && ember test --path dist"
 },
