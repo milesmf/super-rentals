@@ -1,4 +1,5 @@
 import RentalsImage from './image';
+import ShareButton from './share-button';
 import Map from '../map';
 import Jumbo from '../jumbo';
 import { LinkTo } from '@ember/routing';
